@@ -1,0 +1,1766 @@
+allow notepad++_t system_dir_t:dir { read execute }
+allow vboxservice_t device_t:device { execute setattr gen_read gen_write }
+allow svchost_t device_t:device { read execute write create getattr }
+allow svchost_t device_t:device { execute setattr gen_read gen_write }
+allow explorer_t wmplayer_exec_t:file { read execute write create getattr }
+allow explorer_t wmplayer_exec_t:process { execute }
+allow explorer_t systemroot_dir_t:file { read execute write create getattr }
+allow wmplayer_t windows_media_player_dir_t:dir { execute }
+allow wmplayer_t sechost_lib_t:file { read execute }
+allow wmplayer_t imm32_lib_t:file { read execute }
+allow wmplayer_t uxtheme_lib_t:file { read execute }
+allow wmplayer_t wmp_lib_t:file { read execute }
+allow wmplayer_t systemroot_dir_t:dir { execute }
+allow wmplayer_t systemroot_dir_t:file { read execute }
+allow wmplayer_t dwmapi_lib_t:file { read execute }
+allow wmplayer_t wmploc_lib_t:file { read execute }
+allow wmplayer_t rpcss_lib_t:file { read execute }
+allow wmplayer_t cryptbase_lib_t:file { read execute }
+allow wmplayer_t device_t:device { read execute }
+allow wmplayer_t systemroot_dir_t:file { read execute write create getattr }
+allow wmplayer_t tzres_lib_t:file { execute getattr gen_read }
+allow wmplayer_t jscript_lib_t:file { read execute }
+allow wmplayer_t version_lib_t:file { read execute }
+allow wmplayer_t cryptsp_lib_t:file { read execute }
+allow wmplayer_t rsaenh_lib_t:file { read execute }
+allow wmplayer_t rsaenh_lib_t:file { execute getattr gen_read }
+allow wmplayer_t rpcrtremote_lib_t:file { read execute }
+allow wmplayer_t sxs_lib_t:file { read execute }
+allow wmplayer_t wmp_lib_t:file { execute getattr gen_read }
+allow wmplayer_t windowscodecs_lib_t:file { read execute }
+allow wmplayer_t msimg32_lib_t:file { read execute }
+allow explorer_t windows_media_player_dir_t:dir { read execute }
+allow wmplayer_t profapi_lib_t:file { read execute }
+allow wmplayer_t shell32_lib_t:file { read execute write create getattr }
+allow wmplayer_t system_dir_t:dir { execute getattr }
+allow wmplayer_t propsys_lib_t:file { read execute }
+allow wmplayer_t ntmarta_lib_t:file { read execute }
+allow wmplayer_t mmdevapi_lib_t:file { read execute }
+allow wmplayer_t device_t:device { execute getattr }
+allow wmplayer_t mfplat_lib_t:file { read execute }
+allow wmplayer_t avrt_lib_t:file { read execute }
+allow wmplayer_t netprofm_lib_t:file { read execute }
+allow wmplayer_t nlaapi_lib_t:file { read execute }
+allow wmplayer_t npmproxy_lib_t:file { read execute }
+allow wmplayer_t upnphost_lib_t:file { read execute }
+allow wmplayer_t ssdpapi_lib_t:file { read execute }
+allow svchost_t windows_media_player_media_renderer_dir_t:dir { read execute }
+allow wmplayer_t winmm_lib_t:file { read execute }
+allow wmplayer_t wtsapi32_lib_t:file { read execute }
+allow wmplayer_t winsta_lib_t:file { read execute }
+allow wmplayer_t slc_lib_t:file { read execute }
+allow wmplayer_t sspicli_lib_t:file { read execute }
+allow wmplayer_t user_home_t:file { execute gen_read }
+allow wmplayer_t user_home_t:dir { read execute write create getattr }
+allow wmplayer_t user_home_t:dir { }
+allow wmplayer_t user_home_t:dir { execute getattr }
+allow wmplayer_t imapi2_lib_t:file { read execute }
+allow wmpnetwk_t device_t:device { execute setattr gen_read gen_write }
+allow wmpnetwk_t upnp_lib_t:file { execute getattr gen_read }
+allow wmplayer_t pcwum_lib_t:file { read execute }
+allow wmplayer_t device_t:device { read }
+allow wmplayer_t mswmdm_lib_t:file { read execute }
+allow wmplayer_t wininet_lib_t:file { read execute write create getattr }
+allow wmpnetwk_t device_t:device { read execute }
+allow wmplayer_t user_home_t:dir { execute create setattr }
+allow wmplayer_t cewmdm_lib_t:file { read execute }
+allow wmplayer_t wmdmps_lib_t:file { read execute }
+allow wmpnetwk_t systemroot_dir_t:file { read execute write create getattr }
+allow wmplayer_t dnsapi_lib_t:file { read execute }
+allow wmpnetwk_t systemroot_dir_t:file { read execute write create getattr setattr }
+allow wmplayer_t iphlpapi_lib_t:file { read execute }
+allow wmpnetwk_t systemroot_dir_t:dir { read execute write create getattr }
+allow wmplayer_t winnsi_lib_t:file { read execute }
+allow wmplayer_t mswsock_lib_t:file { read execute }
+allow wmplayer_t uxtheme_lib_t:file { read execute write create getattr }
+allow wmplayer_t upnp_lib_t:file { read execute }
+allow wmplayer_t winhttp_lib_t:file { read execute }
+allow wmplayer_t webio_lib_t:file { read execute }
+allow wmplayer_t upnp_lib_t:file { execute getattr gen_read }
+allow wmplayer_t wshtcpip_lib_t:file { read execute }
+allow wmplayer_t wship6_lib_t:file { read execute }
+allow wmplayer_t credssp_lib_t:file { read execute }
+allow wmplayer_t msxml3_lib_t:file { read execute }
+allow wmplayer_t msxml3r_lib_t:file { execute getattr gen_read }
+allow wmpnetwk_t systemroot_dir_t:dir { read execute write create getattr setattr }
+allow wmplayer_t device_t:device { execute setattr gen_read gen_write }
+allow wmplayer_t rasapi32_lib_t:file { read execute }
+allow explorer_t iexplore_exec_t:file { read execute write create getattr }
+allow wmplayer_t rasman_lib_t:file { read execute }
+allow explorer_t iexplore_exec_t:process { execute }
+allow wmplayer_t rtutils_lib_t:file { read execute }
+allow explorer_t iexplore_exec_t:file { execute getattr gen_read }
+allow wmplayer_t wmpnssci_lib_t:file { read execute }
+allow wmplayer_t wmpnssci_lib_t:file { read execute write create getattr }
+allow iexplore_t user_home_t:file { execute unlink getattr }
+allow iexplore_t user_home_t:dir { execute }
+allow iexplore_t sechost_lib_t:file { read execute }
+allow wmplayer_t user_home_t:dir { read execute }
+allow iexplore_t imm32_lib_t:file { read execute }
+allow wmplayer_t system32_dir_t:dir { read execute }
+allow svchost_t device_t:device { execute gen_read gen_write }
+allow iexplore_t ieframe_lib_t:file { read execute }
+allow iexplore_t oleacc_lib_t:file { read execute }
+allow wmplayer_t sensapi_lib_t:file { read execute }
+allow iexplore_t oleaccrc_lib_t:file { execute getattr gen_read }
+allow wmpnetwk_t device_t:device { execute getattr gen_read gen_write }
+allow wmplayer_t explorerframe_lib_t:file { read execute }
+allow iexplore_t ieframe_lib_t:file { read execute write create getattr }
+allow wmplayer_t duser_lib_t:file { read execute }
+allow iexplore_t systemroot_dir_t:dir { execute }
+allow wmplayer_t dui70_lib_t:file { read execute }
+allow iexplore_t systemroot_dir_t:file { read execute }
+allow wmplayer_t dui70_lib_t:file { read execute write create getattr }
+allow iexplore_t systemroot_dir_t:file { read execute write create getattr }
+allow wmplayer_t explorerframe_lib_t:file { read execute write create getattr }
+allow iexplore_t wininet_lib_t:file { read execute write create getattr }
+allow wmplayer_t shsvcs_lib_t:file { read execute }
+allow iexplore_t sspicli_lib_t:file { read execute }
+allow iexplore_t profapi_lib_t:file { read execute }
+allow wmplayer_t wmpps_lib_t:file { read execute }
+allow iexplore_t user_home_t:dir { execute create setattr }
+allow wmplayer_t powrprof_lib_t:file { read execute }
+allow explorer_t user_bin_t:file { read execute write create getattr }
+allow iexplore_t dnsapi_lib_t:file { read execute }
+allow explorer_t user_bin_t:process { execute }
+allow wmplayer_t rasadhlp_lib_t:file { read execute }
+allow iexplore_t iphlpapi_lib_t:file { read execute }
+allow explorer_t user_bin_t:file { execute }
+allow wmplayer_t winrnr_lib_t:file { read execute }
+allow iexplore_t winnsi_lib_t:file { read execute }
+allow wmplayer_t napinsp_lib_t:file { read execute }
+allow iexplore_t rpcss_lib_t:file { read execute }
+allow explorer_t user_home_t:dir { read execute }
+allow wmplayer_t pnrpnsp_lib_t:file { read execute }
+allow iexplore_t cryptbase_lib_t:file { read execute }
+allow explorer_t home_t:dir { read execute }
+allow iexplore_t device_t:device { read execute }
+allow wmplayer_t fwpuclnt_lib_t:file { read execute }
+allow iexplore_t netprofm_lib_t:file { read execute }
+allow iexplore_t nlaapi_lib_t:file { read execute }
+allow iexplore_t cryptsp_lib_t:file { read execute }
+allow explorer_t user_bin_t:file { execute getattr gen_read }
+allow iexplore_t rsaenh_lib_t:file { read execute }
+allow wmplayer_t dhcpcsvc6_lib_t:file { read execute }
+allow wmplayer_t dhcpcsvc_lib_t:file { read execute }
+allow iexplore_t rsaenh_lib_t:file { execute getattr gen_read }
+allow iexplore_t rpcrtremote_lib_t:file { read execute }
+allow svchost_t user_bin_t:file { execute getattr gen_read }
+allow iexplore_t npmproxy_lib_t:file { read execute }
+allow svchost_t user_bin_t:file { read execute write create getattr }
+allow iexplore_t uxtheme_lib_t:file { read execute }
+allow iexplore_t sqmapi_lib_t:file { read execute }
+allow iexplore_t ntmarta_lib_t:file { read execute }
+allow svchost_t user_bin_t:file { execute }
+allow iexplore_t dwmapi_lib_t:file { read execute }
+allow svchost_t user_bin_t:process { execute }
+allow svchost_t user_home_t:dir { read execute }
+allow iexplore_t common_files_dir_t:dir { read execute }
+allow iexplore_t common_files_adobe_dir_t:dir { read execute }
+allow svchost_t home_t:dir { read execute }
+allow iexplore_t common_files_adobe_acrobat_dir_t:dir { read execute }
+allow iexplore_t java_dir_t:dir { read execute }
+allow iexplore_t java_jre6_dir_t:dir { read execute }
+allow iexplore_t java_jre6_bin_dir_t:dir { read execute }
+allow iexplore_t user_home_t:dir { execute getattr }
+allow user_bin_t user_home_t:dir { execute }
+allow user_bin_t mpr_lib_t:file { read execute }
+allow user_bin_t systemroot_dir_t:dir { execute }
+allow user_bin_t systemroot_dir_t:file { read execute }
+allow user_bin_t version_lib_t:file { read execute }
+allow user_bin_t sechost_lib_t:file { read execute }
+allow user_bin_t imm32_lib_t:file { read execute }
+allow user_bin_t systemroot_dir_t:file { read execute write create getattr }
+allow iexplore_t home_t:dir { execute getattr }
+allow user_bin_t uxtheme_lib_t:file { read execute }
+allow user_bin_t system32_dir_t:dir { read execute }
+allow user_bin_t system32_dir_t:file { execute gen_read }
+allow user_bin_t ntmarta_lib_t:file { read execute }
+allow iexplore_t system_dir_t:dir { execute getattr }
+allow user_bin_t lsm_exec_t:file { execute getattr gen_read }
+allow user_bin_t pacer_driver_t:driver { execute getattr gen_read }
+allow user_bin_t fwpuclnt_lib_t:file { execute getattr gen_read }
+allow wmplayer_t home_t:dir { read execute }
+allow user_bin_t pnrpsvc_lib_t:file { execute getattr gen_read }
+allow user_bin_t azroles_lib_t:file { execute getattr gen_read }
+allow user_bin_t fxsresm_lib_t:file { execute getattr gen_read }
+allow user_bin_t cscsvc_lib_t:file { execute getattr gen_read }
+allow user_bin_t iphlpsvc_lib_t:file { execute getattr gen_read }
+allow svchost_t device_t:device { read execute }
+allow user_bin_t umpo_lib_t:file { execute getattr gen_read }
+allow user_bin_t httpapi_lib_t:file { execute getattr gen_read }
+allow user_bin_t wmp_lib_t:file { execute getattr gen_read }
+allow user_bin_t netlogon_lib_t:file { execute getattr gen_read }
+allow user_bin_t drt_lib_t:file { execute getattr gen_read }
+allow user_bin_t ndis_driver_t:driver { execute getattr gen_read }
+allow user_bin_t peerdistsvc_lib_t:file { execute getattr gen_read }
+allow user_bin_t wsmres_lib_t:file { execute getattr gen_read }
+allow user_bin_t tbssvc_lib_t:file { execute getattr gen_read }
+allow iexplore_t rasapi32_lib_t:file { read execute }
+allow iexplore_t rasman_lib_t:file { read execute }
+allow iexplore_t rtutils_lib_t:file { read execute }
+allow iexplore_t user_home_t:dir { read execute }
+allow iexplore_t system32_dir_t:dir { read execute }
+allow iexplore_t sensapi_lib_t:file { read execute }
+allow iexplore_t rasadhlp_lib_t:file { read execute }
+allow iexplore_t ieui_lib_t:file { read execute }
+allow iexplore_t msimg32_lib_t:file { read execute }
+allow iexplore_t mswsock_lib_t:file { read execute }
+allow iexplore_t winrnr_lib_t:file { read execute }
+allow iexplore_t napinsp_lib_t:file { read execute }
+allow iexplore_t pnrpnsp_lib_t:file { read execute }
+allow iexplore_t ieproxy_lib_t:file { read execute }
+allow iexplore_t wshtcpip_lib_t:file { read execute }
+allow iexplore_t device_t:device { execute setattr gen_read gen_write }
+allow iexplore_t version_lib_t:file { read execute }
+allow iexplore_t shell32_lib_t:file { read execute write create getattr }
+allow iexplore_t wship6_lib_t:file { read execute }
+allow iexplore_t apphelp_lib_t:file { read execute }
+allow iexplore_t url_lib_t:file { execute getattr gen_read }
+allow iexplore_t fwpuclnt_lib_t:file { read execute }
+allow iexplore_t xmllite_lib_t:file { read execute }
+allow iexplore_t explorerframe_lib_t:file { read execute }
+allow iexplore_t duser_lib_t:file { read execute }
+allow iexplore_t dui70_lib_t:file { read execute }
+allow iexplore_t dui70_lib_t:file { read execute write create getattr }
+allow explorer_t internet_explorer_dir_t:dir { read execute }
+allow iexplore_t propsys_lib_t:file { read execute }
+allow iexplore_t iexplore_exec_t:process { execute }
+allow iexplore_t device_t:device { execute getattr }
+allow iexplore_t iexplore_exec_t:file { execute getattr gen_read }
+allow iexplore_t msfeeds_lib_t:file { read execute }
+allow iexplore_t ieshims_lib_t:file { read execute }
+allow iexplore_t home_t:dir { read execute }
+allow iexplore_t system_dir_t:dir { read execute }
+allow iexplore_t systemroot_dir_t:dir { read execute }
+allow iexplore_t mlang_lib_t:file { read execute }
+allow iexplore_t acroiehelpershim_lib_t:file { read execute getattr }
+allow iexplore_t acroiehelpershim_lib_t:file { read execute }
+allow iexplore_t acroiehelpershim_lib_t:file { read execute write create getattr }
+allow user_bin_t user_home_t:dir { execute unlink getattr }
+allow searchindexer_t searchprotocolhost_exec_t:process { execute }
+allow user_bin_t dbghelp_lib_t:file { read execute }
+allow searchindexer_t searchprotocolhost_exec_t:file { execute getattr gen_read }
+allow user_bin_t aclui_lib_t:file { read execute }
+allow user_bin_t ntdsapi_lib_t:file { read execute }
+allow searchprotocolhost_t system32_dir_t:dir { execute }
+allow user_bin_t aclui_lib_t:file { read execute write create getattr }
+allow searchprotocolhost_t sechost_lib_t:file { read execute }
+allow searchprotocolhost_t tquery_lib_t:file { read execute }
+allow user_bin_t shell32_lib_t:file { read execute write create getattr }
+allow searchprotocolhost_t msshooks_lib_t:file { read execute }
+allow searchprotocolhost_t rpcss_lib_t:file { read execute }
+allow user_bin_t iphlpapi_lib_t:file { read execute }
+allow explorer_t acrord32_exec_t:file { read execute write create getattr }
+allow iexplore_t acroiehelper_lib_t:file { read execute }
+allow user_bin_t winnsi_lib_t:file { read execute }
+allow searchprotocolhost_t cryptbase_lib_t:file { read execute }
+allow explorer_t acrord32_exec_t:process { execute }
+allow iexplore_t msxml3_lib_t:file { read execute }
+allow iexplore_t acroiehelper_lib_t:file { read execute write create getattr }
+allow user_bin_t wtsapi32_lib_t:file { read execute }
+allow searchprotocolhost_t device_t:device { read execute }
+allow explorer_t acrord32_exec_t:file { execute }
+allow iexplore_t msxml3r_lib_t:file { execute getattr gen_read }
+allow user_bin_t winsta_lib_t:file { read execute }
+allow searchprotocolhost_t msidle_lib_t:file { read execute }
+allow iexplore_t jp2ssv_lib_t:file { read execute getattr }
+allow searchindexer_t searchfilterhost_exec_t:process { execute }
+allow explorer_t adobe_reader_9.0_reader_dir_t:dir { read execute }
+allow iexplore_t jp2ssv_lib_t:file { read execute }
+allow searchfilterhost_t system32_dir_t:dir { execute }
+allow iexplore_t msvcr71_lib_t:file { read execute }
+allow searchfilterhost_t sechost_lib_t:file { read execute }
+allow explorer_t adobe_dir_t:dir { read execute }
+allow searchfilterhost_t tquery_lib_t:file { read execute }
+allow explorer_t adobe_reader_9.0_dir_t:dir { read execute }
+allow explorer_t codeblocks_exec_t:file { read execute write create getattr }
+allow searchfilterhost_t msshooks_lib_t:file { read execute }
+allow explorer_t codeblocks_exec_t:process { execute }
+allow searchfilterhost_t mscoree_lib_t:file { read execute }
+allow explorer_t codeblocks_exec_t:file { execute getattr gen_read }
+allow searchfilterhost_t rpcss_lib_t:file { read execute }
+allow explorer_t acrord32_exec_t:file { execute getattr gen_read }
+allow explorer_t codeblocks_exec_t:file { execute }
+allow searchfilterhost_t cryptbase_lib_t:file { read execute }
+allow searchfilterhost_t device_t:device { read execute }
+allow explorer_t codeblocks_dir_t:dir { read execute }
+allow searchfilterhost_t cryptsp_lib_t:file { read execute }
+allow iexplore_t sxs_lib_t:file { read execute }
+allow searchfilterhost_t rsaenh_lib_t:file { read execute }
+allow svchost_t acrord32_exec_t:file { execute getattr gen_read }
+allow svchost_t acrord32_exec_t:file { read execute write create getattr }
+allow iexplore_t acroiehelper_lib_t:file { execute getattr gen_read }
+allow searchfilterhost_t rsaenh_lib_t:file { execute getattr gen_read }
+allow explorer_t firefox_exec_t:file { read execute write create getattr }
+allow iexplore_t ieframe_lib_t:file { execute getattr gen_read }
+allow searchfilterhost_t rpcrtremote_lib_t:file { read execute }
+allow svchost_t acrord32_exec_t:file { execute }
+allow svchost_t codeblocks_exec_t:file { execute getattr gen_read }
+allow explorer_t ieframe_lib_t:file { execute getattr gen_read }
+allow iexplore_t mshtml_lib_t:file { read execute }
+allow searchfilterhost_t mssprxy_lib_t:file { read execute }
+allow svchost_t acrord32_exec_t:process { execute }
+allow svchost_t codeblocks_exec_t:file { read execute write create getattr }
+allow iexplore_t msls31_lib_t:file { read execute }
+allow searchprotocolhost_t cryptsp_lib_t:file { read execute }
+allow svchost_t adobe_reader_9.0_reader_dir_t:dir { read execute }
+allow explorer_t firefox_exec_t:process { execute }
+allow searchprotocolhost_t rsaenh_lib_t:file { read execute }
+allow explorer_t mozilla_firefox_dir_t:dir { read execute }
+allow svchost_t adobe_dir_t:dir { read execute }
+allow svchost_t codeblocks_exec_t:file { execute }
+allow iexplore_t user_home_t:dir { execute unlink getattr }
+allow svchost_t adobe_reader_9.0_dir_t:dir { read execute }
+allow svchost_t codeblocks_exec_t:process { execute }
+allow explorer_t firefox_exec_t:file { execute getattr gen_read }
+allow svchost_t codeblocks_dir_t:dir { read execute }
+allow iexplore_t ieapfltr_lib_t:file { read execute }
+allow searchprotocolhost_t rsaenh_lib_t:file { execute getattr gen_read }
+allow explorer_t firefox_exec_t:file { execute }
+allow iexplore_t secur32_lib_t:file { read execute }
+allow explorer_t opera_exec_t:file { read execute write create getattr }
+allow searchprotocolhost_t rpcrtremote_lib_t:file { read execute }
+allow explorer_t opera_exec_t:process { execute }
+allow searchprotocolhost_t mssprxy_lib_t:file { read execute }
+allow explorer_t opera_exec_t:file { execute getattr gen_read }
+allow searchprotocolhost_t mssph_lib_t:file { read execute }
+allow codeblocks_t user_home_t:dir { execute }
+allow searchprotocolhost_t mapi32_lib_t:file { read execute }
+allow acrord32_t user_home_t:dir { execute }
+allow explorer_t opera_exec_t:file { execute }
+allow wmplayer_t xmllite_lib_t:file { read execute }
+allow codeblocks_t codeblocks_mingw_dir_t:file { read execute }
+allow searchprotocolhost_t authz_lib_t:file { read execute }
+allow acrord32_t sechost_lib_t:file { read execute }
+allow wmplayer_t linkinfo_lib_t:file { read execute }
+allow codeblocks_t shfolder_lib_t:file { read execute }
+allow acrord32_t systemroot_dir_t:dir { execute }
+allow explorer_t opera_dir_t:dir { read execute }
+allow codeblocks_t wxmsw28u_gcc_cb_lib_t:file { read execute }
+allow acrord32_t systemroot_dir_t:file { read execute }
+allow codeblocks_t sechost_lib_t:file { read execute }
+allow codeblocks_t systemroot_dir_t:dir { execute }
+allow acrord32_t imm32_lib_t:file { read execute }
+allow codeblocks_t systemroot_dir_t:file { read execute }
+allow codeblocks_t winmm_lib_t:file { read execute }
+allow svchost_t firefox_exec_t:file { execute getattr gen_read }
+allow explorer_t systemroot_dir_t:file { execute getattr gen_read }
+allow codeblocks_t wsock32_lib_t:file { read execute }
+allow svchost_t mozilla_firefox_dir_t:dir { read execute }
+allow codeblocks_t codeblocks_lib_t:file { read execute }
+allow acrord32_t systemroot_dir_t:dir { read execute }
+allow explorer_t thumbcache_lib_t:file { read execute }
+allow codeblocks_t wxscintilla_lib_t:file { read execute }
+allow searchindexer_t system_dir_t:dir { execute }
+allow explorer_t user_home_t:dir { execute }
+allow explorer_t systemroot_dir_t:dir { read execute }
+allow codeblocks_t imm32_lib_t:file { read execute }
+allow acrord32_t acrord32_lib_t:file { read execute }
+allow explorer_t user_home_t:dir { execute getattr }
+allow acrord32_t acrord32_lib_t:file { read execute write create getattr }
+allow acrord32_t version_lib_t:file { read execute }
+allow svchost_t opera_exec_t:file { execute getattr gen_read }
+allow codeblocks_t systemroot_dir_t:file { read execute write create getattr }
+allow acrord32_t agm_lib_t:file { read execute }
+allow svchost_t opera_exec_t:file { read execute write create getattr }
+allow codeblocks_t rpcss_lib_t:file { read execute }
+allow acrord32_t agm_lib_t:file { read execute write create getattr }
+allow svchost_t firefox_exec_t:file { read execute write create getattr }
+allow explorer_t home_t:dir { execute getattr }
+allow codeblocks_t cryptbase_lib_t:file { read execute }
+allow acrord32_t cooltype_lib_t:file { read execute }
+allow svchost_t opera_exec_t:file { execute }
+allow codeblocks_t device_t:device { read execute }
+allow acrord32_t cooltype_lib_t:file { read execute write create getattr }
+allow wmplayer_t apphelp_lib_t:file { read execute }
+allow svchost_t firefox_exec_t:file { execute }
+allow svchost_t opera_exec_t:process { execute }
+allow codeblocks_t uxtheme_lib_t:file { read execute }
+allow wmplayer_t networkexplorer_lib_t:file { read execute getattr }
+allow svchost_t firefox_exec_t:process { execute }
+allow explorer_t system_dir_t:dir { execute getattr }
+allow svchost_t opera_dir_t:dir { read execute }
+allow codeblocks_t exchndl_lib_t:file { read execute }
+allow wmplayer_t networkexplorer_lib_t:file { read execute }
+allow codeblocks_t codeblocks_dir_t:dir { read execute }
+allow lsass_t device_t:device { execute getattr gen_read gen_write }
+allow wmplayer_t mpr_lib_t:file { read execute }
+allow explorer_t user_home_t:dir { read execute write create getattr }
+allow wmplayer_t vboxmrxnp_lib_t:file { read execute }
+allow codeblocks_t user_home_t:dir { read execute }
+allow acrord32_t userenv_lib_t:file { read execute }
+allow wmplayer_t drprov_lib_t:file { read execute }
+allow explorer_t device_t:device { execute getattr gen_read gen_write }
+allow codeblocks_t tzres_lib_t:file { execute getattr gen_read }
+allow acrord32_t profapi_lib_t:file { read execute }
+allow wmplayer_t ntlanman_lib_t:file { read execute }
+allow explorer_t user_home_t:file { read execute write create getattr }
+allow acrord32_t winmm_lib_t:file { read execute }
+allow wmplayer_t davclnt_lib_t:file { read execute }
+allow acrord32_t bib_lib_t:file { read execute }
+allow wmplayer_t davhlpr_lib_t:file { read execute }
+allow acrord32_t bib_lib_t:file { read execute write create getattr }
+allow firefox_t urlclassifier3.sq_bdd_t:file { read }
+allow firefox_t urlclassifier3.sq_bdd_t:file { write }
+allow firefox_t install_log_t:file { read }
+allow firefox_t install_log_t:file { read execute write create getattr }
+allow firefox_t mozilla_firefox_dir_t:dir { execute }
+allow opera_t user_home_t:dir { execute }
+allow firefox_t xul_lib_t:file { read execute }
+allow opera_t msi_lib_t:file { read execute }
+allow acrord32_t ace_lib_t:file { read execute }
+allow firefox_t sqlite3_lib_t:file { read execute }
+allow opera_t sechost_lib_t:file { read execute }
+allow acrord32_t ace_lib_t:file { read execute write create getattr }
+allow firefox_t mozcrt19_lib_t:file { read execute }
+allow opera_t imm32_lib_t:file { read execute }
+allow firefox_t js3250_lib_t:file { read execute }
+allow iexplore_t iepeers_lib_t:file { read execute }
+allow acrord32_t systemroot_dir_t:file { read execute write create getattr }
+allow firefox_t nspr4_lib_t:file { read execute }
+allow iexplore_t system32_dir_t:file { read execute }
+allow acrord32_t rpcss_lib_t:file { read execute }
+allow firefox_t sechost_lib_t:file { read execute }
+allow opera_t opera_lib_t:file { read execute }
+allow iexplore_t iepeers_lib_t:file { read execute write create getattr }
+allow firefox_t wsock32_lib_t:file { read execute }
+allow opera_t systemroot_dir_t:dir { execute }
+allow acrord32_t cryptbase_lib_t:file { read execute }
+allow firefox_t winmm_lib_t:file { read execute }
+allow opera_t systemroot_dir_t:file { read execute }
+allow acrord32_t device_t:device { read execute }
+allow firefox_t smime3_lib_t:file { read execute }
+allow opera_t version_lib_t:file { read execute }
+allow acrord32_t uxtheme_lib_t:file { read execute }
+allow firefox_t nss3_lib_t:file { read execute }
+allow opera_t winmm_lib_t:file { read execute }
+allow acrord32_t dwmapi_lib_t:file { read execute }
+allow firefox_t nssutil3_lib_t:file { read execute }
+allow svchost_t taskschd_lib_t:file { read execute }
+allow opera_t wsock32_lib_t:file { read execute }
+allow acrord32_t ieframe_lib_t:file { read execute }
+allow firefox_t plc4_lib_t:file { read execute }
+allow svchost_t system32_dir_t:dir { read execute write create getattr }
+allow opera_t systemroot_dir_t:file { read execute write create getattr }
+allow iexplore_t msimtf_lib_t:file { read execute }
+allow acrord32_t oleacc_lib_t:file { read execute }
+allow firefox_t plds4_lib_t:file { read execute }
+allow opera_t uxtheme_lib_t:file { read execute }
+allow iexplore_t jscript_lib_t:file { read execute }
+allow acrord32_t oleaccrc_lib_t:file { execute getattr gen_read }
+allow firefox_t ssl3_lib_t:file { read execute }
+allow svchost_t system32_dir_t:dir { read execute }
+allow opera_t dwmapi_lib_t:file { read execute }
+allow acrord32_t ieframe_lib_t:file { read execute write create getattr }
+allow svchost_t opera_lib_t:file { execute getattr gen_read }
+allow firefox_t version_lib_t:file { read execute }
+allow opera_t rpcss_lib_t:file { read execute }
+allow firefox_t system32_dir_t:file { read execute }
+allow iexplore_t imgutil_lib_t:file { read execute }
+allow firefox_t systemroot_dir_t:dir { execute }
+allow opera_t cryptbase_lib_t:file { read execute }
+allow iexplore_t pngfilt_lib_t:file { read execute }
+allow firefox_t systemroot_dir_t:file { read execute }
+allow opera_t device_t:device { read execute }
+allow acrord32_t shell32_lib_t:file { read execute write create getattr }
+allow firefox_t msimg32_lib_t:file { read execute }
+allow opera_t opera_locale_dir_t:dir { read execute }
+allow firefox_t mozcpp19_lib_t:file { read execute }
+allow opera_t user_home_t:file { execute gen_read }
+allow acrord32_t system_dir_t:dir { execute getattr }
+allow codeblocks_t sspicli_lib_t:file { read execute }
+allow firefox_t xpcom_lib_t:file { read execute }
+allow acrord32_t propsys_lib_t:file { read execute }
+allow codeblocks_t dwmapi_lib_t:file { read execute }
+allow firefox_t systemroot_dir_t:file { read execute write create getattr }
+allow acrord32_t ntmarta_lib_t:file { read execute }
+allow codeblocks_t cryptsp_lib_t:file { read execute }
+allow firefox_t uxtheme_lib_t:file { read execute }
+allow acrord32_t user_home_t:dir { read execute }
+allow acrord32_t device_t:device { execute getattr }
+allow iexplore_t device_t:device { gen_read }
+allow codeblocks_t rsaenh_lib_t:file { read execute }
+allow firefox_t dwmapi_lib_t:file { read execute }
+allow opera_t tzres_lib_t:file { execute getattr gen_read }
+allow firefox_t dbghelp_lib_t:file { read execute }
+allow firefox_t cryptbase_lib_t:file { read execute }
+allow opera_t user_home_t:dir { read execute }
+allow svchost_t systemroot_dir_t:dir { read execute }
+allow firefox_t device_t:device { read execute }
+allow svchost_t system32_dir_t:dir { execute unlink getattr }
+allow opera_t opera_styles_dir_t:dir { read execute }
+allow svchost_t systemroot_dir_t:file { execute getattr }
+allow codeblocks_t rsaenh_lib_t:file { execute getattr gen_read }
+allow firefox_t rpcss_lib_t:file { read execute }
+allow svchost_t xmllite_lib_t:file { read execute }
+allow codeblocks_t rpcrtremote_lib_t:file { read execute }
+allow firefox_t shell32_lib_t:file { read execute write create getattr }
+allow svchost_t systemroot_dir_t:dir { execute getattr }
+allow acrord32_t cryptsp_lib_t:file { read execute }
+allow codeblocks_t home_t:dir { read execute }
+allow firefox_t system_dir_t:dir { execute getattr }
+allow acrord32_t rsaenh_lib_t:file { read execute }
+allow firefox_t propsys_lib_t:file { read execute }
+allow firefox_t ntmarta_lib_t:file { read execute }
+allow firefox_t device_t:device { execute getattr }
+allow svchost_t system_dir_t:dir { execute getattr }
+allow acrord32_t rsaenh_lib_t:file { execute getattr gen_read }
+allow svchost_t device_t:device { execute getattr }
+allow acrord32_t rpcrtremote_lib_t:file { read execute }
+allow acrord32_t adobe_reader_9.0_reader_dir_t:dir { read execute }
+allow acrord32_t adobe_reader_9.0_reader_plug_ins_dir_t:dir { read execute }
+allow codeblocks_t uxtheme_lib_t:file { read execute write create getattr }
+allow codeblocks_t msftedit_lib_t:file { read execute }
+allow codeblocks_t systemroot_dir_t:file { execute gen_read }
+allow codeblocks_t codeblocks_share_codeblocks_lexers_dir_t:dir { read execute }
+allow opera_t opera_unite_dir_t:dir { read execute }
+allow codeblocks_t msimg32_lib_t:file { read execute }
+allow codeblocks_t codeblocks_share_codeblocks_plugins_dir_t:dir { read execute }
+allow firefox_t mozilla_firefox_dir_t:dir { read execute }
+allow explorer_t systemroot_dir_t:file { execute gen_read }
+allow firefox_t mozilla_firefox_components_dir_t:dir { read execute }
+allow codeblocks_t codeblocks_share_codeblocks_dir_t:dir { read execute }
+allow codeblocks_t astyle_lib_t:file { read execute }
+allow acrord32_t tzres_lib_t:file { execute getattr gen_read }
+allow opera_t wlanapi_lib_t:file { read execute }
+allow opera_t wlanutil_lib_t:file { read execute }
+allow opera_t msimg32_lib_t:file { read execute }
+allow opera_t opera_program_plugins_dir_t:dir { read execute }
+allow opera_t mozilla_firefox_plugins_dir_t:dir { read execute }
+allow codeblocks_t autosave_lib_t:file { read execute }
+allow opera_t npdeployjava1_lib_t:file { execute getattr gen_read }
+allow opera_t java_jre6_bin_new_plugin_dir_t:dir { read execute }
+allow opera_t msvcr71_lib_t:file { execute getattr gen_read }
+allow opera_t npjp2_lib_t:file { execute getattr gen_read }
+allow opera_t nppdf32_lib_t:file { execute getattr gen_read }
+allow opera_t oleacc_lib_t:file { read execute }
+allow opera_t oleaccrc_lib_t:file { execute getattr gen_read }
+allow opera_t mswsock_lib_t:file { read execute }
+allow opera_t wshtcpip_lib_t:file { read execute }
+allow opera_t device_t:device { execute setattr gen_read gen_write }
+allow opera_t user_home_t:file { execute unlink getattr }
+allow opera_t wship6_lib_t:file { read execute }
+allow opera_t userenv_lib_t:file { read execute }
+allow opera_t profapi_lib_t:file { read execute }
+allow opera_t shell32_lib_t:file { read execute write create getattr }
+allow opera_t dnsapi_lib_t:file { read execute }
+allow opera_t iphlpapi_lib_t:file { read execute }
+allow opera_t winnsi_lib_t:file { read execute }
+allow opera_t ntmarta_lib_t:file { read execute }
+allow opera_t rasadhlp_lib_t:file { read execute }
+allow opera_t user_home_t:dir { read execute write create getattr }
+allow opera_t device_t:device { gen_read }
+allow opera_t system_dir_t:dir { execute getattr }
+allow opera_t propsys_lib_t:file { read execute }
+allow codeblocks_t classwizard_lib_t:file { read execute }
+allow opera_t device_t:device { execute getattr }
+allow svchost_t device_t:device { execute getattr gen_read gen_write }
+allow opera_t linkinfo_lib_t:file { read execute }
+allow opera_t opera_dir_t:dir { read execute }
+allow acrord32_t home_t:dir { read execute }
+allow opera_t ntshrui_lib_t:file { read execute }
+allow opera_t srvcli_lib_t:file { read execute }
+allow acrord32_t sqlite_lib_t:file { read execute }
+allow opera_t device_t:device { execute getattr gen_read gen_write }
+allow acrord32_t sqlite_lib_t:file { read execute write create getattr }
+allow opera_t cscapi_lib_t:file { read execute }
+allow opera_t slc_lib_t:file { read execute }
+allow opera_t opera_exec_t:file { execute getattr }
+allow opera_t opera_dir_t:dir { execute getattr }
+allow codeblocks_t codecompletion_lib_t:file { read execute }
+allow explorer_t user_bin_t:file { gen_read }
+allow explorer_t sendmail_lib_t:file { read execute }
+allow explorer_t sendmail_lib_t:file { read execute write create getattr }
+allow explorer_t systemroot_dir_t:dir { execute }
+allow acrord32_t user_home_t:dir { execute unlink getattr }
+allow explorer_t mydocs_lib_t:file { read execute }
+allow explorer_t mydocs_lib_t:file { read execute write create getattr }
+allow explorer_t systemroot_dir_t:dir { execute getattr }
+allow opera_t cryptsp_lib_t:file { read execute }
+allow opera_t rsaenh_lib_t:file { read execute }
+allow opera_t rsaenh_lib_t:file { execute getattr gen_read }
+allow opera_t user_home_t:dir { execute unlink gen_read }
+allow opera_t user_home_t:file { execute unlink setattr gen_read gen_write }
+allow services_t svchost_exec_t:process { execute }
+allow svchost_t system32_dir_t:dir { execute }
+allow svchost_t sechost_lib_t:file { read execute }
+allow svchost_t wersvc_lib_t:file { read execute }
+allow opera_t nlaapi_lib_t:file { read execute }
+allow opera_t winrnr_lib_t:file { read execute }
+allow opera_t napinsp_lib_t:file { read execute }
+allow opera_t pnrpnsp_lib_t:file { read execute }
+allow opera_t fwpuclnt_lib_t:file { read execute }
+allow user_bin_t dwmapi_lib_t:file { read execute }
+allow user_bin_t rpcss_lib_t:file { read execute }
+allow codeblocks_t compiler_lib_t:file { read execute }
+allow user_bin_t cryptbase_lib_t:file { read execute }
+allow user_bin_t device_t:device { read execute }
+allow user_bin_t windowscodecs_lib_t:file { read execute }
+allow user_bin_t apphelp_lib_t:file { read execute }
+allow user_bin_t ehstorshell_lib_t:file { read execute getattr }
+allow user_bin_t ehstorshell_lib_t:file { read execute }
+allow user_bin_t propsys_lib_t:file { read execute }
+allow user_bin_t cscui_lib_t:file { read execute getattr }
+allow user_bin_t cscui_lib_t:file { read execute }
+allow user_bin_t cscdll_lib_t:file { read execute }
+allow wmplayer_t systemroot_dir_t:dir { read execute }
+allow user_bin_t cscui_lib_t:file { read execute write create getattr }
+allow user_bin_t cscapi_lib_t:file { read execute }
+allow user_bin_t ntshrui_lib_t:file { read execute getattr }
+allow user_bin_t ntshrui_lib_t:file { read execute }
+allow user_bin_t srvcli_lib_t:file { read execute }
+allow user_bin_t device_t:device { execute getattr gen_read gen_write }
+allow user_bin_t slc_lib_t:file { read execute }
+allow user_bin_t imageres_lib_t:file { execute getattr gen_read }
+allow user_bin_t acledit_lib_t:file { read execute }
+allow opera_t device_t:device { execute gen_read gen_write }
+allow acrord32_t adobe_reader_9.0_resource_cmap_dir_t:dir { read execute }
+allow user_bin_t imageres_lib_t:file { read execute }
+allow acrord32_t adobe_reader_9.0_resource_dir_t:dir { read execute }
+allow user_bin_t powrprof_lib_t:file { read execute }
+allow acrord32_t adobe_reader_9.0_resource_font_dir_t:dir { read execute }
+allow acrord32_t adobe_reader_9.0_resource_font_pfm_dir_t:dir { read execute }
+allow user_bin_t systemroot_dir_t:dir { read execute }
+allow user_bin_t uxtheme_lib_t:file { read execute write create getattr }
+allow acrord32_t common_files_dir_t:dir { read execute }
+allow acrord32_t common_files_adobe_dir_t:dir { read execute }
+allow user_bin_t taskhost_exec_t:file { execute getattr gen_read }
+allow codeblocks_t debugger_lib_t:file { read execute }
+allow firefox_t browserdirprovider_lib_t:file { read execute }
+allow firefox_t mswsock_lib_t:file { read execute }
+allow firefox_t wshtcpip_lib_t:file { read execute }
+allow firefox_t device_t:device { execute setattr gen_read gen_write }
+allow firefox_t device_t:device { execute gen_read gen_write }
+allow user_bin_t system_dir_t:dir { execute getattr }
+allow firefox_t mozilla_firefox_greprefs_dir_t:dir { read execute }
+allow user_bin_t profapi_lib_t:file { read execute }
+allow firefox_t mozilla_firefox_defaults_pref_dir_t:dir { read execute }
+allow user_bin_t device_t:device { execute getattr }
+allow firefox_t mozilla_firefox_chrome_dir_t:dir { read execute }
+allow firefox_t iphlpapi_lib_t:file { read execute }
+allow acrord32_t mscms_lib_t:file { read execute }
+allow firefox_t winnsi_lib_t:file { read execute }
+allow firefox_t user_home_t:dir { read execute }
+allow firefox_t mozilla_firefox_modules_dir_t:dir { read execute }
+allow user_bin_t dwm_exec_t:file { execute getattr gen_read }
+allow acrord32_t adobe_reader_9.0_reader_javascripts_dir_t:dir { read execute }
+allow acrord32_t common_files_adobe_arm_1.0_dir_t:dir { read execute }
+allow acrord32_t sspicli_lib_t:file { read execute }
+allow acrord32_t common_files_adobe_arm_dir_t:dir { read execute }
+allow acrord32_t adobearm_exec_t:file { read execute write create getattr }
+allow acrord32_t adobearm_exec_t:process { execute }
+allow acrord32_t apphelp_lib_t:file { read execute }
+allow user_bin_t explorer_exec_t:file { execute getattr gen_read }
+allow adobearm_t user_home_t:dir { execute }
+allow adobearm_t msi_lib_t:file { read execute }
+allow adobearm_t sechost_lib_t:file { read execute }
+allow adobearm_t version_lib_t:file { read execute }
+allow adobearm_t systemroot_dir_t:dir { execute }
+allow adobearm_t systemroot_dir_t:file { read execute }
+allow codeblocks_t defaultmimehandler_lib_t:file { read execute }
+allow adobearm_t system32_dir_t:file { read execute }
+allow adobearm_t oledlg_lib_t:file { read execute }
+allow adobearm_t userenv_lib_t:file { read execute }
+allow adobearm_t profapi_lib_t:file { read execute }
+allow adobearm_t imm32_lib_t:file { read execute }
+allow user_bin_t vboxtray_exec_t:file { execute getattr gen_read }
+allow adobearm_t systemroot_dir_t:file { read execute write create getattr }
+allow adobearm_t uxtheme_lib_t:file { read execute }
+allow adobearm_t adobearm_exec_t:file { read execute write create getattr }
+allow adobearm_t tzres_lib_t:file { execute getattr gen_read }
+allow adobearm_t user_home_t:file { execute gen_read }
+allow user_bin_t jusched_exec_t:file { execute getattr gen_read }
+allow user_bin_t common_files_dir_t:dir { read execute }
+allow user_bin_t common_files_java_java_update_dir_t:dir { read execute }
+allow user_bin_t notepad++_exec_t:file { execute getattr gen_read }
+allow user_bin_t wmplayer_exec_t:file { execute getattr gen_read }
+allow user_bin_t windows_media_player_dir_t:dir { read execute }
+allow user_bin_t home_t:dir { read execute }
+allow user_bin_t user_home_t:dir { read execute }
+allow codeblocks_t openfileslist_lib_t:file { read execute }
+allow firefox_t t2embed_lib_t:file { read execute }
+allow user_bin_t iexplore_exec_t:file { execute getattr gen_read }
+allow user_bin_t internet_explorer_dir_t:dir { read execute }
+allow firefox_t brwsrcmp_lib_t:file { read execute }
+allow firefox_t mozilla_firefox_extensions_dir_t:dir { read execute }
+allow user_bin_t user_bin_t:file { execute getattr gen_read }
+allow adobearm_t user_home_t:file { execute create setattr }
+allow adobearm_t user_home_t:file { execute unlink getattr }
+allow codeblocks_t projectsimporter_lib_t:file { read execute }
+allow firefox_t nlaapi_lib_t:file { read execute }
+allow user_bin_t acrord32_exec_t:file { execute getattr gen_read }
+allow firefox_t dnsapi_lib_t:file { read execute }
+allow firefox_t winrnr_lib_t:file { read execute }
+allow firefox_t napinsp_lib_t:file { read execute }
+allow user_bin_t adobe_dir_t:dir { read execute }
+allow firefox_t pnrpnsp_lib_t:file { read execute }
+allow user_bin_t adobe_reader_9.0_dir_t:dir { read execute }
+allow user_bin_t adobe_reader_9.0_reader_dir_t:dir { read execute }
+allow firefox_t windowscodecs_lib_t:file { read execute }
+allow firefox_t apphelp_lib_t:file { read execute }
+allow firefox_t ehstorshell_lib_t:file { read execute getattr }
+allow firefox_t ehstorshell_lib_t:file { read execute }
+allow firefox_t cscui_lib_t:file { read execute getattr }
+allow firefox_t cscui_lib_t:file { read execute }
+allow firefox_t cscdll_lib_t:file { read execute }
+allow firefox_t cscui_lib_t:file { read execute write create getattr }
+allow firefox_t cscapi_lib_t:file { read execute }
+allow firefox_t ntshrui_lib_t:file { read execute getattr }
+allow firefox_t ntshrui_lib_t:file { read execute }
+allow firefox_t srvcli_lib_t:file { read execute }
+allow firefox_t device_t:device { execute getattr gen_read gen_write }
+allow firefox_t slc_lib_t:file { read execute }
+allow firefox_t imageres_lib_t:file { execute getattr gen_read }
+allow user_bin_t codeblocks_exec_t:file { execute getattr gen_read }
+allow user_bin_t firefox_exec_t:file { execute getattr gen_read }
+allow user_bin_t mozilla_firefox_dir_t:dir { read execute }
+allow codeblocks_t scriptedwizard_lib_t:file { read execute }
+allow firefox_t cryptsp_lib_t:file { read execute }
+allow firefox_t rsaenh_lib_t:file { read execute }
+allow user_bin_t opera_exec_t:file { execute getattr gen_read }
+allow firefox_t rsaenh_lib_t:file { execute getattr gen_read }
+allow user_bin_t opera_dir_t:dir { read execute }
+allow firefox_t rpcrtremote_lib_t:file { read execute }
+allow firefox_t tzres_lib_t:file { execute getattr gen_read }
+allow codeblocks_t todo_lib_t:file { read execute }
+allow user_bin_t user_home_t:file { execute gen_read }
+allow firefox_t mscms_lib_t:file { read execute }
+allow firefox_t userenv_lib_t:file { read execute }
+allow firefox_t profapi_lib_t:file { read execute }
+allow firefox_t mozilla_firefox_searchplugins_dir_t:dir { read execute }
+allow firefox_t wship6_lib_t:file { read execute }
+allow firefox_t rasadhlp_lib_t:file { read execute }
+allow firefox_t softokn3_lib_t:file { read execute }
+allow firefox_t nssdbm3_lib_t:file { read execute }
+allow firefox_t freebl3_lib_t:file { read execute }
+allow firefox_t nssckbi_lib_t:file { read execute }
+allow codeblocks_t wxsmith_lib_t:file { read execute }
+allow codeblocks_t wxsmithlib_lib_t:file { read execute }
+allow firefox_t mozilla_firefox_plugins_dir_t:dir { read execute }
+allow firefox_t java_jre6_bin_dir_t:dir { read execute }
+allow firefox_t java_jre6_bin_new_plugin_dir_t:dir { read execute }
+allow firefox_t npdeployjava1_lib_t:file { execute getattr gen_read }
+allow firefox_t npjp2_lib_t:file { execute getattr gen_read }
+allow codeblocks_t wxsmithaui_lib_t:file { read execute }
+allow firefox_t adobe_dir_t:dir { read execute }
+allow firefox_t adobe_reader_9.0_reader_browser_dir_t:dir { read execute }
+allow firefox_t opera_program_plugins_dir_t:dir { read execute }
+allow firefox_t explorerframe_lib_t:file { read execute }
+allow codeblocks_t wxsmithcontribitems_lib_t:file { read execute }
+allow firefox_t duser_lib_t:file { read execute }
+allow codeblocks_t wxchartctrl_lib_t:file { read execute }
+allow firefox_t dui70_lib_t:file { read execute }
+allow codeblocks_t wxcustombutton_lib_t:file { read execute }
+allow firefox_t dui70_lib_t:file { read execute write create getattr }
+allow codeblocks_t wxflatnotebook_lib_t:file { read execute }
+allow firefox_t user_home_t:dir { execute unlink getattr }
+allow codeblocks_t xpmanifest_lib_t:file { read execute }
+allow codeblocks_t mingw32-gcc_exec_t:process { execute }
+allow codeblocks_t mingw32-gcc_exec_t:file { execute getattr gen_read }
+allow codeblocks_t apphelp_lib_t:file { read execute }
+allow mingw32-gcc_t user_home_t:dir { execute }
+allow csrss_t conhost_exec_t:process { execute }
+allow conhost_t system32_dir_t:dir { execute }
+allow conhost_t uxtheme_lib_t:file { read execute }
+allow conhost_t conhost_exec_t:file { read execute write create getattr }
+allow conhost_t dwmapi_lib_t:file { read execute }
+allow conhost_t uxtheme_lib_t:file { read execute write create getattr }
+allow conhost_t systemroot_dir_t:dir { execute }
+allow conhost_t systemroot_dir_t:file { read execute }
+allow conhost_t systemroot_dir_t:file { read execute write create getattr }
+allow conhost_t sechost_lib_t:file { read execute }
+allow mingw32-gcc_t imm32_lib_t:file { read execute }
+allow codeblocks_t codeblocks_mingw_dir_t:dir { read execute }
+allow explorer_t system32_dir_t:dir { read execute }
+allow explorer_t cmd_exec_t:file { read execute write create getattr }
+allow explorer_t cmd_exec_t:process { execute }
+allow cmd_t user_home_t:dir { execute }
+allow conhost_t user_home_t:file { execute gen_read }
+allow conhost_t cmd_exec_t:file { execute getattr gen_read }
+allow conhost_t rpcss_lib_t:file { read execute }
+allow conhost_t cryptbase_lib_t:file { read execute }
+allow conhost_t device_t:device { read execute }
+allow cmd_t winbrand_lib_t:file { read execute }
+allow cmd_t imm32_lib_t:file { read execute }
+allow user_bin_t cmd_exec_t:file { execute getattr gen_read }
+allow cmd_t home_t:dir { read execute }
+allow cmd_t systemroot_dir_t:file { execute getattr gen_read }
+allow user_bin_t conhost_exec_t:file { execute getattr gen_read }
+allow firefox_t shdocvw_lib_t:file { read execute }
+allow firefox_t shdocvw_lib_t:file { read execute write create getattr }
+allow wmplayer_t wmvcore_lib_t:file { read execute }
+allow wmplayer_t wmasf_lib_t:file { read execute }
+allow wmplayer_t mlang_lib_t:file { read execute }
+allow wmplayer_t msdmo_lib_t:file { read execute }
+allow wmplayer_t mp3dmod_lib_t:file { read execute }
+allow codeblocks_t system_dir_t:dir { read execute }
+allow codeblocks_t system_dir_t:dir { execute }
+allow codeblocks_t +_exec_t:process { execute }
+allow codeblocks_t +_exec_t:file { execute getattr gen_read }
+allow +_t system_dir_t:dir { execute }
+allow +_t imm32_lib_t:file { read execute }
+allow +_t +_exec_t:file { execute getattr gen_read }
+allow +_t tzres_lib_t:file { execute getattr gen_read }
+allow +_t codeblocks_mingw_lib_dir_t:process { execute }
+allow user_bin_t system_dir_t:dir { read execute }
+allow +_t apphelp_lib_t:file { read execute }
+allow codeblocks_mingw_lib_dir_t system_dir_t:dir { execute }
+allow user_bin_t +_exec_t:file { execute getattr gen_read }
+allow user_bin_t codeblocks_dir_t:dir { read execute }
+allow user_bin_t codeblocks_mingw_dir_t:dir { read execute }
+allow codeblocks_mingw_lib_dir_t imm32_lib_t:file { read execute }
+allow codeblocks_mingw_lib_dir_t tzres_lib_t:file { execute getattr gen_read }
+allow user_bin_t wpdshext_lib_t:file { read execute getattr }
+allow user_bin_t shdocvw_lib_t:file { read execute getattr }
+allow user_bin_t ieframe_lib_t:file { read execute getattr }
+allow codeblocks_t codeblocks_mingw_lib_dir_t:dir { read execute }
+allow codeblocks_t codeblocks_mingw_lib_gcc_dir_t:dir { read execute }
+allow codeblocks_t codeblocks_mingw_lib_gcc_mingw32_dir_t:dir { read execute }
+allow codeblocks_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_dir_t:dir { read execute }
+allow codeblocks_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_dir_t:dir { read execute }
+allow codeblocks_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++dir_t:dir { read execute }
+allow codeblocks_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++mingw32_dir_t:dir { read execute }
+allow codeblocks_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++backward_dir_t:dir { read execute }
+allow taskhost_t mmdevapi_lib_t:file { read execute }
+allow taskhost_t propsys_lib_t:file { read execute }
+allow winlogon_t logonui_exec_t:process { execute }
+allow logonui_t system32_dir_t:dir { execute }
+allow logonui_t imm32_lib_t:file { read execute }
+allow logonui_t rpcss_lib_t:file { read execute }
+allow logonui_t cryptbase_lib_t:file { read execute }
+allow logonui_t device_t:device { read execute }
+allow logonui_t uxtheme_lib_t:file { read execute }
+allow logonui_t sechost_lib_t:file { read execute }
+allow logonui_t authui_lib_t:file { read execute }
+allow logonui_t authui_lib_t:file { read execute write create getattr }
+allow logonui_t cryptui_lib_t:file { read execute }
+allow logonui_t cryptui_lib_t:file { read execute write create getattr }
+allow logonui_t systemroot_dir_t:dir { execute }
+allow logonui_t systemroot_dir_t:file { read execute }
+allow logonui_t systemroot_dir_t:file { read execute write create getattr }
+allow logonui_t dui70_lib_t:file { read execute }
+allow logonui_t dui70_lib_t:file { read execute write create getattr }
+allow logonui_t duser_lib_t:file { read execute }
+allow logonui_t sndvolsso_lib_t:file { read execute }
+allow logonui_t sndvolsso_lib_t:file { read execute write create getattr }
+allow logonui_t hid_lib_t:file { read execute }
+allow logonui_t mmdevapi_lib_t:file { read execute }
+allow logonui_t propsys_lib_t:file { read execute }
+allow logonui_t dwmapi_lib_t:file { read execute }
+allow logonui_t xmllite_lib_t:file { read execute }
+allow logonui_t imageres_lib_t:file { execute getattr gen_read }
+allow logonui_t windowscodecs_lib_t:file { read execute }
+allow logonui_t winbrand_lib_t:file { read execute }
+allow logonui_t systemroot_dir_t:file { execute getattr gen_read }
+allow logonui_t wtsapi32_lib_t:file { read execute }
+allow logonui_t winsta_lib_t:file { read execute }
+allow logonui_t rpcrtremote_lib_t:file { read execute }
+allow logonui_t vaultcredprovider_lib_t:file { read execute }
+allow logonui_t smartcardcredentialprovider_lib_t:file { read execute }
+allow logonui_t smartcardcredentialprovider_lib_t:file { read execute write create getattr }
+allow logonui_t biocredprov_lib_t:file { read execute }
+allow logonui_t biocredprov_lib_t:file { read execute write create getattr }
+allow logonui_t secur32_lib_t:file { read execute }
+allow logonui_t sspicli_lib_t:file { read execute }
+allow logonui_t winbio_lib_t:file { read execute }
+allow logonui_t credui_lib_t:file { read execute }
+allow logonui_t vaultcli_lib_t:file { read execute }
+allow logonui_t netapi32_lib_t:file { read execute }
+allow logonui_t netutils_lib_t:file { read execute }
+allow logonui_t srvcli_lib_t:file { read execute }
+allow logonui_t wkscli_lib_t:file { read execute }
+allow logonui_t samcli_lib_t:file { read execute }
+allow logonui_t credui_lib_t:file { read execute write create getattr }
+allow logonui_t systemroot_dir_t:file { execute gen_read }
+allow logonui_t certcredprovider_lib_t:file { read execute }
+allow logonui_t rasplap_lib_t:file { read execute }
+allow svchost_t es_lib_t:file { read execute }
+allow winlogon_t authz_lib_t:file { read execute }
+allow logonui_t rasapi32_lib_t:file { read execute }
+allow svchost_t sens_lib_t:file { execute getattr gen_read }
+allow logonui_t rasman_lib_t:file { read execute }
+allow explorer_t sens_lib_t:file { execute getattr gen_read }
+allow logonui_t rtutils_lib_t:file { read execute }
+allow logonui_t input_lib_t:file { execute getattr gen_read }
+allow logonui_t cryptsp_lib_t:file { read execute }
+allow logonui_t rsaenh_lib_t:file { read execute }
+allow logonui_t rsaenh_lib_t:file { execute getattr gen_read }
+allow logonui_t tiptsf_lib_t:file { execute getattr gen_read }
+allow logonui_t tabletextservice_lib_t:file { execute getattr gen_read }
+allow logonui_t oleacc_lib_t:file { read execute }
+allow logonui_t oleaccrc_lib_t:file { execute getattr gen_read }
+allow logonui_t uiautomationcore_lib_t:file { read execute }
+allow logonui_t sxs_lib_t:file { read execute }
+allow logonui_t msimg32_lib_t:file { read execute }
+allow logonui_t samlib_lib_t:file { read execute }
+allow logonui_t device_t:device { execute getattr gen_read gen_write }
+allow logonui_t shacct_lib_t:file { read execute }
+allow logonui_t slc_lib_t:file { read execute }
+allow svchost_t device_t:device { gen_read }
+allow wmplayer_t device_t:device { gen_read }
+allow notepad++_t systemroot_dir_t:dir { execute }
+allow explorer_t wpdshext_lib_t:file { read execute }
+allow explorer_t wpdshext_lib_t:file { read execute write create getattr }
+allow explorer_t audiodev_lib_t:file { read execute }
+allow explorer_t wmvcore_lib_t:file { read execute }
+allow explorer_t wmasf_lib_t:file { read execute }
+allow explorer_t calc_exec_t:file { read execute write create getattr }
+allow explorer_t system_dir_t:dir { read execute }
+allow explorer_t calc_exec_t:process { execute }
+allow calc_t system32_dir_t:dir { execute }
+allow calc_t systemroot_dir_t:dir { execute }
+allow calc_t systemroot_dir_t:file { read execute }
+allow calc_t sechost_lib_t:file { read execute }
+allow calc_t uxtheme_lib_t:file { read execute }
+allow calc_t winmm_lib_t:file { read execute }
+allow calc_t version_lib_t:file { read execute }
+allow calc_t imm32_lib_t:file { read execute }
+allow calc_t systemroot_dir_t:file { read execute write create getattr }
+allow calc_t windowscodecs_lib_t:file { read execute }
+allow calc_t dwmapi_lib_t:file { read execute }
+allow calc_t rpcss_lib_t:file { read execute }
+allow calc_t cryptbase_lib_t:file { read execute }
+allow user_bin_t calc_exec_t:file { execute getattr gen_read }
+allow calc_t device_t:device { read execute }
+allow calc_t oleacc_lib_t:file { read execute }
+allow calc_t oleaccrc_lib_t:file { execute getattr gen_read }
+allow explorer_t system_dir_t:dir { read execute write create getattr }
+allow explorer_t themecpl_lib_t:file { execute getattr gen_read }
+allow explorer_t system32_dir_t:file { execute getattr gen_read }
+allow explorer_t imageres_lib_t:file { execute getattr gen_read }
+allow explorer_t sdcpl_lib_t:file { execute getattr gen_read }
+allow explorer_t usercpl_lib_t:file { execute getattr gen_read }
+allow explorer_t display_lib_t:file { execute getattr gen_read }
+allow codeblocks_t codeblocks_mingw_include_dir_t:dir { read execute }
+allow explorer_t gettingstarted_exec_t:file { read execute write create getattr }
+allow explorer_t gettingstarted_exec_t:process { execute }
+allow explorer_t gettingstarted_exec_t:file { execute getattr gen_read }
+allow gettingstarted_t system32_dir_t:dir { execute }
+allow gettingstarted_t imm32_lib_t:file { read execute }
+allow svchost_t gettingstarted_exec_t:file { execute getattr gen_read }
+allow gettingstarted_t rpcss_lib_t:file { read execute }
+allow user_bin_t gettingstarted_exec_t:file { execute getattr gen_read }
+allow gettingstarted_t cryptbase_lib_t:file { read execute }
+allow gettingstarted_t device_t:device { read execute }
+allow gettingstarted_t uxtheme_lib_t:file { read execute }
+allow gettingstarted_t propsys_lib_t:file { read execute }
+allow gettingstarted_t sechost_lib_t:file { read execute }
+allow gettingstarted_t shell32_lib_t:file { read execute write create getattr }
+allow gettingstarted_t systemroot_dir_t:dir { execute }
+allow gettingstarted_t systemroot_dir_t:file { read execute }
+allow gettingstarted_t systemroot_dir_t:file { read execute write create getattr }
+allow gettingstarted_t apphelp_lib_t:file { read execute }
+allow gettingstarted_t ieframe_lib_t:file { read execute getattr }
+allow gettingstarted_t ieframe_lib_t:file { read execute }
+allow gettingstarted_t oleacc_lib_t:file { read execute }
+allow gettingstarted_t oleaccrc_lib_t:file { execute getattr gen_read }
+allow gettingstarted_t ieframe_lib_t:file { read execute write create getattr }
+allow gettingstarted_t ntmarta_lib_t:file { read execute }
+allow gettingstarted_t version_lib_t:file { read execute }
+allow gettingstarted_t firefox_exec_t:file { execute getattr gen_read }
+allow gettingstarted_t dwmapi_lib_t:file { read execute }
+allow cmd_t user_home_t:dir { read execute }
+allow cmd_t system32_dir_t:dir { read execute }
+allow cmd_t java_exec_t:process { execute }
+allow cmd_t apphelp_lib_t:file { read execute }
+allow cmd_t systemroot_dir_t:dir { read execute }
+allow cmd_t java_exec_t:file { execute getattr gen_read }
+allow java_t user_home_t:dir { execute }
+allow java_t sechost_lib_t:file { read execute }
+allow java_t apphelp_lib_t:file { read execute }
+allow java_t java_exec_t:file { execute getattr gen_read }
+allow java_t java_jre6_lib_dir_t:dir { read execute }
+allow java_t java_jre6_bin_client_dir_t:dir { read execute }
+allow java_t tzres_lib_t:file { execute getattr gen_read }
+allow java_t msvcr71_lib_t:file { read execute }
+allow java_t jvm_lib_t:file { read execute }
+allow java_t winmm_lib_t:file { read execute }
+allow java_t imm32_lib_t:file { read execute }
+allow java_t java_dir_t:dir { read execute }
+allow java_t java_jre6_dir_t:dir { read execute }
+allow java_t java_jre6_bin_dir_t:dir { read execute }
+allow java_t jvm_lib_t:file { execute getattr gen_read }
+allow user_bin_t java_exec_t:file { execute getattr gen_read }
+allow java_t verify_lib_t:file { read execute }
+allow java_t java_lib_t:file { read execute }
+allow java_t hpi_lib_t:file { read execute }
+allow java_t user_home_t:dir { read execute }
+allow java_t user_home_t:dir { setattr }
+allow java_t zip_lib_t:file { read execute }
+allow java_t java_jre6_lib_ext_dir_t:dir { read execute }
+allow java_t home_t:dir { read execute }
+allow java_t system32_drivers_dir_t:dir { read execute }
+allow java_t system32_dir_t:dir { read execute }
+allow java_t systemroot_dir_t:dir { read execute }
+allow java_t adobe_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_esl_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_air_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_amt_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_browser_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_idtemplates_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_idtemplates_enu_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_idtemplates_fra_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_javascripts_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_legal_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_legal_enu_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_legal_fra_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_optional_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_acroform_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_acroform_pmp_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_annotations_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_annotations_stamps_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_annotations_stamps_enu_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_annotations_stamps_fra_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_multimedia_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_multimedia_mpp_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_vdkhome_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_vdkhome_enu_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_plug_ins_vdkhome_fra_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_spplugins_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_reader_tracker_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_cmap_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_font_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_font_pfm_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_linguistics_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_linguistics_languagenames2_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_linguistics_providers_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_linguistics_providers_proximity_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_linguistics_providers_proximity_11.00_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_saslprep_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_typesupport_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_typesupport_unicode_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_typesupport_unicode_icu_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_typesupport_unicode_mappings_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_typesupport_unicode_mappings_adobe_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_typesupport_unicode_mappings_mac_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_resource_typesupport_unicode_mappings_win_dir_t:dir { read execute }
+allow java_t adobe_reader_9.0_setup_files_dir_t:dir { read execute }
+allow java_t codeblocks_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_bin_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_doc_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_doc_mingw32-make_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_doc_runtime_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_downloaded_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_include_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_include_ddk_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_include_gl_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_include_sys_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_info_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++backward_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++bits_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++debug_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_basic_tree_policy_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_binary_heap__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_binomial_heap__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_bin_search_tree__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_cc_hash_table_map__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_eq_fn_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_gp_hash_table_map__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_hash_fn_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_left_child_next_sibling_heap__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_list_update_map__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_list_update_policy_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_ov_tree_map__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_pairing_heap__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_pat_trie__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_rb_tree_map__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_rc_binomial_heap__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_resize_policy_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_splay_tree__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_thin_heap__dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_tree_policy_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_trie_policy_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++ext_pb_ds_detail_unordered_iterator_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++mingw32_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++mingw32_bits_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++parallel_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_c++tr1_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_include_ssp_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_install-tools_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_4.4.1_install-tools_include_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_lib_gcc_mingw32_bin_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_man_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_man_man1_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_man_man7_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_mingw32_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_mingw32_bin_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_mingw32_lib_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_mingw32_lib_ldscripts_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_share_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_share_info_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_share_man_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_share_man_man1_dir_t:dir { read execute }
+allow java_t codeblocks_mingw_share_man_man3_dir_t:dir { read execute }
+allow java_t codeblocks_share_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_docs_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_images_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_images_16x16_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_images_codecompletion_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_images_settings_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_images_wxsmith_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_lexers_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_plugins_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_scripts_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_arm-eval7t_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_arm-eval7t_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_arm-eval7t_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_arm-eval7t_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_ek-at91sam7a3_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_ek-at91sam7a3_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_ek-at91sam7a3_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_ek-at91sam7a3_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_lpd-lh7a404_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_lpd-lh7a404_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_lpd-lh7a404_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_lpd-lh7a404_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_olimex-at91sam7sx_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_olimex-at91sam7sx_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_olimex-at91sam7sx_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_olimex-at91sam7sx_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_olimex-lpc213x_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_olimex-lpc213x_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_olimex-lpc213x_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_olimex-lpc213x_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-at91m55800_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-at91m55800_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-at91m55800_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-at91m55800_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-lpc2294_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-lpc2294_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-lpc2294_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-lpc2294_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-pxa255_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-pxa255_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-pxa255_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_arm_files_phycore-pxa255_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_avr_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_avr_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_console_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_console_c_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_c_file_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_d_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_d_console_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_empty_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_fltk_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_fltk_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_fltk_fluid_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_glfw_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_glfw_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_glut_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_glut_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_gtk_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_gtk_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_h_file_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_irrlicht_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_irrlicht_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_lf_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_lf_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_lf_files_quick_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_lf_files_structured_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_matlab_csf_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_matlab_csf_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_matlab_csf_lccstub_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ogre_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ogre_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_opengl_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_opengl_files_unix_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_opengl_files_win_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_plugins_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_plugins_templates_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_files_mpc5200_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_files_mpc5200_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_files_mpc5200_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_files_mpc5200_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_files_mpc565_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_files_mpc565_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_files_mpc565_ld_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_ppc_files_mpc565_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_qt4_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_qt4_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_sdl_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_sdl_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_sfml_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_sfml_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_sharedlib_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_sharedlib_c_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_smartwin_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_smartwin_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_staticlib_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_staticlib_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_stlport_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_stlport_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_sys_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_sys_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_easykit-tc1767_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_easyrun-tc1796_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_easyrun-tc1796_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_easyrun-tc1796_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_phycore-tc1130_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_phycore-tc1130_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_phycore-tc1130_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_phycore-tc1775_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_phycore-tc1775_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_phycore-tc1775_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1130_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1130_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1130_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1161_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1162_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1762_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1765_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1765_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1765_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1766_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1775_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1775_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1775_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1792_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1792_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1792_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1796_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1796_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1796_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1797_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1797_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1797_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1920_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1920_h_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_tricore_templates_triboard-tc1920_src_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_win32gui_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_win32gui_files_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_win32gui_files_dialog_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_win32gui_files_frame_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_wxwidgets_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_wxwidgets_common_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_wxwidgets_pch_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_wxwidgets_rc_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_wxwidgets_wxfb_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_wxwidgets_wxfb_dialog_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_wxwidgets_wxfb_frame_dir_t:dir { read execute }
+allow java_t codeblocks_share_codeblocks_templates_wizard_wxwidgets_wxsmith_dir_t:dir { read execute }
+allow java_t common_files_dir_t:dir { read execute }
+allow java_t common_files_adobe_dir_t:dir { read execute }
+allow java_t common_files_adobe_acrobat_dir_t:dir { read execute }
+allow java_t common_files_adobe_acrobat_activex_dir_t:dir { read execute }
+allow java_t common_files_adobe_arm_dir_t:dir { read execute }
+allow java_t common_files_adobe_arm_1.0_dir_t:dir { read execute }
+allow java_t common_files_adobe_help_dir_t:dir { read execute }
+allow java_t common_files_adobe_help_en_us_dir_t:dir { read execute }
+allow java_t common_files_adobe_help_en_us_adobe_reader_dir_t:dir { read execute }
+allow java_t common_files_adobe_help_en_us_adobe_reader_9.0_dir_t:dir { read execute }
+allow java_t common_files_adobe_help_fr_fr_dir_t:dir { read execute }
+allow java_t common_files_adobe_help_fr_fr_adobe_reader_dir_t:dir { read execute }
+allow java_t common_files_adobe_help_fr_fr_adobe_reader_9.0_dir_t:dir { read execute }
+allow java_t common_files_adobe_updater6_dir_t:dir { read execute }
+allow java_t common_files_java_dir_t:dir { read execute }
+allow java_t common_files_java_java_update_dir_t:dir { read execute }
+allow java_t common_files_microsoft_kitsetup_dir_t:dir { read execute }
+allow java_t common_files_microsoft_kitsetup_kit_definitions_dir_t:dir { read execute }
+allow java_t common_files_microsoft_kitsetup_setup_versions_dir_t:dir { read execute }
+allow java_t common_files_microsoft_kitsetup_setup_versions_202.104.808.2200_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_dao_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_dw_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_1028_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_1031_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_1033_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_1036_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_1040_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_1041_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_1042_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_1046_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_1049_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_2052_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_help_3082_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_1.0_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_1.7_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_ar-sa_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_bg-bg_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_cs-cz_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_da-dk_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_de-de_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_el-gr_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_en-us_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_es-es_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_et-ee_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fi-fi_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fr-fr_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_auxpad_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_keypad_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_main_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_numbers_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_oskmenu_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_osknumpad_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_oskpred_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_symbols_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_fsdefinitions_web_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_he-il_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_hr-hr_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_hu-hu_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_hwrcustomization_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_it-it_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_ja-jp_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_ko-kr_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_lt-lt_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_lv-lv_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_nb-no_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_nl-nl_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_pl-pl_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_pt-br_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_pt-pt_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_ro-ro_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_ru-ru_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_sk-sk_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_sl-si_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_sr-latn-cs_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_sv-se_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_th-th_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_tr-tr_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_uk-ua_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_zh-cn_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_ink_zh-tw_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_msenv_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_msenv_publicassemblies_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_msenv_publicassemblies_en_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_msinfo_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_msinfo_fr-fr_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_stationery_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_textconv_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_textconv_fr-fr_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_triedit_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_triedit_fr-fr_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_vgx_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_vs_help_data_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_vs_help_data_9.0_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_vs_help_data_9.0_filters_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_vs_help_data_9.0_filters_1033_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_vs_help_data_9.0_resources_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_vs_help_data_9.0_resources_1033_dir_t:dir { read execute }
+allow java_t common_files_microsoft_shared_vs7debug_dir_t:dir { read execute }
+allow java_t common_files_services_dir_t:dir { read execute }
+allow java_t common_files_speechengines_dir_t:dir { read execute }
+allow java_t common_files_speechengines_microsoft_dir_t:dir { read execute }
+allow java_t common_files_speechengines_microsoft_tts20_dir_t:dir { read execute }
+allow java_t common_files_speechengines_microsoft_tts20_en-us_dir_t:dir { read execute }
+allow java_t common_files_speechengines_microsoft_tts20_en-us_enu-dsk_dir_t:dir { read execute }
+allow java_t common_files_speechengines_microsoft_tts20_fr-fr_dir_t:dir { read execute }
+allow java_t common_files_system_dir_t:dir { read execute }
+allow java_t common_files_system_ado_dir_t:dir { read execute }
+allow java_t common_files_system_ado_fr-fr_dir_t:dir { read execute }
+allow java_t common_files_system_fr-fr_dir_t:dir { read execute }
+allow java_t common_files_system_msadc_dir_t:dir { read execute }
+allow java_t common_files_system_msadc_fr-fr_dir_t:dir { read execute }
+allow java_t common_files_system_ole_db_dir_t:dir { read execute }
+allow java_t common_files_system_ole_db_fr-fr_dir_t:dir { read execute }
+allow java_t dsf_dir_t:dir { read execute }
+allow java_t dsf_driverpackages_dir_t:dir { read execute }
+allow java_t dsf_driverpackages_softehci_dir_t:dir { read execute }
+allow java_t dsf_generichid_dir_t:dir { read execute }
+allow java_t dsf_softehci_dir_t:dir { read execute }
+allow java_t dsf_usbaudio_dir_t:dir { read execute }
+allow java_t dsf_usbhid_dir_t:dir { read execute }
+allow java_t dsf_usbloopback_dir_t:dir { read execute }
+allow java_t dvd_maker_dir_t:dir { read execute }
+allow java_t dvd_maker_fr-fr_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_babyboy_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_babygirl_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_flippage_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_full_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_huecycle_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_layeredtitles_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_memories_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_oldage_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_performance_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_pets_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_push_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_rectangles_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_resizingpanels_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_shatter_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_specialoccasion_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_sports_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_stacking_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_travel_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_videowall_dir_t:dir { read execute }
+allow java_t dvd_maker_shared_dvdstyles_vignette_dir_t:dir { read execute }
+allow java_t internet_explorer_dir_t:dir { read execute }
+allow java_t internet_explorer_fr-fr_dir_t:dir { read execute }
+allow java_t internet_explorer_signup_dir_t:dir { read execute }
+allow java_t java_jre6_bin_new_plugin_dir_t:dir { read execute }
+allow java_t java_jre6_lib_applet_dir_t:dir { read execute }
+allow java_t java_jre6_lib_audio_dir_t:dir { read execute }
+allow java_t java_jre6_lib_cmm_dir_t:dir { read execute }
+allow java_t java_jre6_lib_deploy_dir_t:dir { read execute }
+allow java_t java_jre6_lib_deploy_jqs_dir_t:dir { read execute }
+allow java_t java_jre6_lib_deploy_jqs_ff_dir_t:dir { read execute }
+allow java_t java_jre6_lib_deploy_jqs_ff_chrome_dir_t:dir { read execute }
+allow java_t java_jre6_lib_deploy_jqs_ff_chrome_content_dir_t:dir { read execute }
+allow java_t java_jre6_lib_deploy_jqs_ie_dir_t:dir { read execute }
+allow java_t java_jre6_lib_fonts_dir_t:dir { read execute }
+allow java_t java_jre6_lib_i386_dir_t:dir { read execute }
+allow java_t java_jre6_lib_im_dir_t:dir { read execute }
+allow java_t java_jre6_lib_management_dir_t:dir { read execute }
+allow java_t java_jre6_lib_security_dir_t:dir { read execute }
+allow java_t java_jre6_lib_servicetag_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_africa_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_america_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_america_argentina_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_america_indiana_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_america_kentucky_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_america_north_dakota_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_antarctica_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_asia_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_atlantic_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_australia_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_etc_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_europe_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_indian_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_pacific_dir_t:dir { read execute }
+allow java_t java_jre6_lib_zi_systemv_dir_t:dir { read execute }
+allow java_t mozilla_firefox_dir_t:dir { read execute }
+allow java_t mozilla_firefox_chrome_dir_t:dir { read execute }
+allow java_t mozilla_firefox_components_dir_t:dir { read execute }
+allow java_t mozilla_firefox_defaults_dir_t:dir { read execute }
+allow java_t mozilla_firefox_defaults_autoconfig_dir_t:dir { read execute }
+allow java_t mozilla_firefox_defaults_pref_dir_t:dir { read execute }
+allow java_t mozilla_firefox_defaults_profile_dir_t:dir { read execute }
+allow java_t mozilla_firefox_defaults_profile_chrome_dir_t:dir { read execute }
+allow java_t mozilla_firefox_dictionaries_dir_t:dir { read execute }
+allow java_t mozilla_firefox_extensions_dir_t:dir { read execute }
+allow java_t mozilla_firefox_greprefs_dir_t:dir { read execute }
+allow java_t mozilla_firefox_modules_dir_t:dir { read execute }
+allow java_t mozilla_firefox_plugins_dir_t:dir { read execute }
+allow java_t mozilla_firefox_res_dir_t:dir { read execute }
+allow java_t mozilla_firefox_res_dtd_dir_t:dir { read execute }
+allow java_t mozilla_firefox_res_entitytables_dir_t:dir { read execute }
+allow java_t mozilla_firefox_res_fonts_dir_t:dir { read execute }
+allow java_t mozilla_firefox_res_html_dir_t:dir { read execute }
+allow java_t mozilla_firefox_searchplugins_dir_t:dir { read execute }
+allow java_t mozilla_firefox_uninstall_dir_t:dir { read execute }
+allow java_t msbuild_dir_t:dir { read execute }
+allow java_t msbuild_microsoft_dir_t:dir { read execute }
+allow java_t msbuild_microsoft_windows_workflow_foundation_dir_t:dir { read execute }
+allow java_t msbuild_microsoft_windows_workflow_foundation_v3.0_dir_t:dir { read execute }
+allow java_t msbuild_microsoft_windows_workflow_foundation_v3.5_dir_t:dir { read execute }
+allow java_t notepad++dir_t:dir { read execute }
+allow java_t notepad++_localization_dir_t:dir { read execute }
+allow java_t notepad++plugins_dir_t:dir { read execute }
+allow java_t notepad++plugins_apis_dir_t:dir { read execute }
+allow java_t notepad++plugins_config_dir_t:dir { read execute }
+allow java_t notepad++plugins_config_tidy_dir_t:dir { read execute }
+allow java_t notepad++plugins_disabled_dir_t:dir { read execute }
+allow java_t notepad++plugins_doc_dir_t:dir { read execute }
+allow java_t notepad++plugins_doc_nppftp_dir_t:dir { read execute }
+allow java_t notepad++themes_dir_t:dir { read execute }
+allow java_t notepad++updater_dir_t:dir { read execute }
+allow java_t opera_dir_t:dir { read execute }
+allow java_t opera_defaults_dir_t:dir { read execute }
+allow java_t opera_extra_dir_t:dir { read execute }
+allow java_t opera_gstreamer_dir_t:dir { read execute }
+allow java_t opera_gstreamer_plugins_dir_t:dir { read execute }
+allow java_t opera_locale_dir_t:dir { read execute }
+allow java_t opera_locale_be_dir_t:dir { read execute }
+allow java_t opera_locale_bg_dir_t:dir { read execute }
+allow java_t opera_locale_cs_dir_t:dir { read execute }
+allow java_t opera_locale_da_dir_t:dir { read execute }
+allow java_t opera_locale_de_dir_t:dir { read execute }
+allow java_t opera_locale_el_dir_t:dir { read execute }
+allow java_t opera_locale_en_dir_t:dir { read execute }
+allow java_t opera_locale_es-es_dir_t:dir { read execute }
+allow java_t opera_locale_es-la_dir_t:dir { read execute }
+allow java_t opera_locale_et_dir_t:dir { read execute }
+allow java_t opera_locale_fi_dir_t:dir { read execute }
+allow java_t opera_locale_fr_dir_t:dir { read execute }
+allow java_t opera_locale_fy_dir_t:dir { read execute }
+allow java_t opera_locale_hi_dir_t:dir { read execute }
+allow java_t opera_locale_hr_dir_t:dir { read execute }
+allow java_t opera_locale_hu_dir_t:dir { read execute }
+allow java_t opera_locale_id_dir_t:dir { read execute }
+allow java_t opera_locale_it_dir_t:dir { read execute }
+allow java_t opera_locale_ja_dir_t:dir { read execute }
+allow java_t opera_locale_ka_dir_t:dir { read execute }
+allow java_t opera_locale_ko_dir_t:dir { read execute }
+allow java_t opera_locale_lt_dir_t:dir { read execute }
+allow java_t opera_locale_mk_dir_t:dir { read execute }
+allow java_t opera_locale_nb_dir_t:dir { read execute }
+allow java_t opera_locale_nl_dir_t:dir { read execute }
+allow java_t opera_locale_nn_dir_t:dir { read execute }
+allow java_t opera_locale_pl_dir_t:dir { read execute }
+allow java_t opera_locale_pt_dir_t:dir { read execute }
+allow java_t opera_locale_ro_dir_t:dir { read execute }
+allow java_t opera_locale_ru_dir_t:dir { read execute }
+allow java_t opera_locale_sk_dir_t:dir { read execute }
+allow java_t opera_locale_sr_dir_t:dir { read execute }
+allow java_t opera_locale_sv_dir_t:dir { read execute }
+allow java_t opera_locale_ta_dir_t:dir { read execute }
+allow java_t opera_locale_te_dir_t:dir { read execute }
+allow java_t opera_locale_tr_dir_t:dir { read execute }
+allow java_t opera_locale_uk_dir_t:dir { read execute }
+allow java_t opera_locale_vi_dir_t:dir { read execute }
+allow java_t opera_locale_zh-cn_dir_t:dir { read execute }
+allow java_t opera_locale_zh-tw_dir_t:dir { read execute }
+allow java_t opera_program_dir_t:dir { read execute }
+allow java_t opera_program_plugins_dir_t:dir { read execute }
+allow java_t opera_skin_dir_t:dir { read execute }
+allow java_t opera_styles_dir_t:dir { read execute }
+allow java_t opera_styles_images_dir_t:dir { read execute }
+allow java_t opera_styles_user_dir_t:dir { read execute }
+allow java_t opera_ui_dir_t:dir { read execute }
+allow java_t opera_unite_dir_t:dir { read execute }
+allow java_t reference_assemblies_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_framework_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_framework_v3.0_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_framework_v3.0_fr_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_framework_v3.0_redistlist_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_framework_v3.0_subsetlist_dir_t:dir { read execute }
+allow codeblocks_t codeblocks_mingw_include_sys_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_framework_v3.5_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_framework_v3.5_fr_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_framework_v3.5_redistlist_dir_t:dir { read execute }
+allow java_t reference_assemblies_microsoft_framework_v3.5_subsetlist_dir_t:dir { read execute }
+allow java_t sun_dir_t:dir { read execute }
+allow java_t sun_virtualbox_guest_additions_dir_t:dir { read execute }
+allow java_t uninstall_information_dir_t:dir { read execute }
+allow java_t windows_defender_dir_t:dir { read execute }
+allow java_t windows_defender_fr-fr_dir_t:dir { read execute }
+allow java_t windows_journal_dir_t:dir { read execute }
+allow java_t windows_journal_fr-fr_dir_t:dir { read execute }
+allow java_t windows_journal_templates_dir_t:dir { read execute }
+allow java_t windows_mail_dir_t:dir { read execute }
+allow java_t windows_mail_fr-fr_dir_t:dir { read execute }
+allow java_t windows_media_player_dir_t:dir { read execute }
+allow java_t windows_media_player_fr-fr_dir_t:dir { read execute }
+allow java_t windows_media_player_icons_dir_t:dir { read execute }
+allow java_t windows_media_player_media_renderer_dir_t:dir { read execute }
+allow java_t windows_media_player_network_sharing_dir_t:dir { read execute }
+allow java_t windows_media_player_skins_dir_t:dir { read execute }
+allow java_t windows_media_player_visualizations_dir_t:dir { read execute }
+allow java_t windows_nt_dir_t:dir { read execute }
+allow java_t windows_nt_accessories_dir_t:dir { read execute }
+allow java_t windows_nt_accessories_fr-fr_dir_t:dir { read execute }
+allow java_t windows_nt_tabletextservice_dir_t:dir { read execute }
+allow java_t windows_nt_tabletextservice_fr-fr_dir_t:dir { read execute }
+allow java_t windows_photo_viewer_dir_t:dir { read execute }
+allow java_t windows_photo_viewer_fr-fr_dir_t:dir { read execute }
+allow java_t windows_portable_devices_dir_t:dir { read execute }
+allow java_t windows_sidebar_dir_t:dir { read execute }
+allow java_t windows_sidebar_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_calendar.gadget_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_calendar.gadget_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_calendar.gadget_fr-fr_css_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_calendar.gadget_fr-fr_js_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_calendar.gadget_images_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_clock.gadget_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_clock.gadget_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_clock.gadget_fr-fr_css_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_clock.gadget_fr-fr_js_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_clock.gadget_images_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_cpu.gadget_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_cpu.gadget_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_cpu.gadget_fr-fr_css_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_cpu.gadget_fr-fr_js_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_cpu.gadget_images_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_currency.gadget_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_currency.gadget_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_currency.gadget_fr-fr_css_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_currency.gadget_fr-fr_js_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_currency.gadget_images_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_mediacenter.gadget_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_mediacenter.gadget_css_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_mediacenter.gadget_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_mediacenter.gadget_images_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_mediacenter.gadget_js_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_picturepuzzle.gadget_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_picturepuzzle.gadget_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_picturepuzzle.gadget_fr-fr_css_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_picturepuzzle.gadget_fr-fr_js_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_picturepuzzle.gadget_images_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_rssfeeds.gadget_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_rssfeeds.gadget_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_rssfeeds.gadget_fr-fr_css_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_rssfeeds.gadget_fr-fr_js_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_rssfeeds.gadget_images_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_slideshow.gadget_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_slideshow.gadget_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_slideshow.gadget_fr-fr_css_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_slideshow.gadget_fr-fr_js_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_slideshow.gadget_images_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_slideshow.gadget_images_in_sidebar_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_slideshow.gadget_images_on_desktop_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_weather.gadget_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_weather.gadget_fr-fr_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_weather.gadget_fr-fr_css_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_weather.gadget_fr-fr_js_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_weather.gadget_images_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_weather.gadget_images_120dpi_dir_t:dir { read execute }
+allow java_t windows_sidebar_gadgets_weather.gadget_images_144dpi_dir_t:dir { read execute }
+allow java_t windows_sidebar_shared_gadgets_dir_t:dir { read execute }
+allow searchprotocolhost_t ntmarta_lib_t:file { read execute }
+allow searchprotocolhost_t user_home_t:dir { read execute write create getattr }
+allow searchprotocolhost_t shell32_lib_t:file { read execute write create getattr }
+allow searchprotocolhost_t systemroot_dir_t:dir { execute }
+allow searchprotocolhost_t systemroot_dir_t:file { read execute }
+allow searchprotocolhost_t systemroot_dir_t:file { read execute write create getattr }
+allow searchprotocolhost_t propsys_lib_t:file { read execute }
+allow searchprotocolhost_t user_home_t:dir { execute getattr }
+allow searchprotocolhost_t home_t:dir { execute getattr }
+allow searchprotocolhost_t system_dir_t:dir { execute getattr }
+allow searchprotocolhost_t device_t:device { execute getattr }
+allow searchprotocolhost_t profapi_lib_t:file { read execute }
+allow searchindexer_t nlsdata000c_lib_t:file { read execute }
+allow searchindexer_t nlslexicons000c_lib_t:file { read execute }
+allow svchost_t system_dir_t:dir { read execute }
+allow services_t system32_dir_t:dir { read execute write create getattr }
+allow services_t wermgr_exec_t:process { execute }
+allow wermgr_t system32_dir_t:dir { execute }
+allow wermgr_t sechost_lib_t:file { read execute }
+allow wermgr_t wer_lib_t:file { read execute }
+allow wermgr_t imm32_lib_t:file { read execute }
+allow wermgr_t profapi_lib_t:file { read execute }
+allow wermgr_t system_dir_t:dir { read execute }
+allow wermgr_t user_home_t:dir { read execute }
+allow services_t systemroot_dir_t:dir { read execute }
+allow services_t taskhost_exec_t:process { execute }
+allow services_t taskhost_exec_t:file { execute getattr gen_read }
+allow taskhost_t system32_dir_t:dir { execute }
+allow taskhost_t imm32_lib_t:file { read execute }
+allow taskhost_t rpcss_lib_t:file { read execute }
+allow taskhost_t cryptbase_lib_t:file { read execute }
+allow taskhost_t device_t:device { read execute }
+allow taskhost_t sechost_lib_t:file { read execute }
+allow taskhost_t racengn_lib_t:file { read execute }
+allow taskhost_t wevtapi_lib_t:file { read execute }
+allow taskhost_t sqmapi_lib_t:file { read execute }
+allow taskhost_t aepic_lib_t:file { read execute }
+allow taskhost_t sfc_lib_t:file { read execute }
+allow taskhost_t sfc_os_lib_t:file { read execute }
+allow taskhost_t version_lib_t:file { read execute }
+allow taskhost_t apphelp_lib_t:file { read execute }
+allow taskhost_t profapi_lib_t:file { read execute }
+allow taskhost_t system_dir_t:file { execute create setattr }
+allow taskhost_t system_dir_t:dir { read execute }
+allow taskhost_t sqlceoledb30_lib_t:file { read execute }
+allow taskhost_t sqlcese30_lib_t:file { read execute }
+allow taskhost_t sqlceqp30_lib_t:file { read execute }
+allow taskhost_t system_dir_t:dir { execute getattr }
+allow taskhost_t winsatapi_lib_t:file { read execute }
+allow taskhost_t dxgi_lib_t:file { read execute }
+allow taskhost_t dwmapi_lib_t:file { read execute }
+allow taskhost_t systemroot_dir_t:dir { execute }
+allow taskhost_t systemroot_dir_t:file { read execute }
+allow taskhost_t systemroot_dir_t:dir { read execute }
+allow taskhost_t msxml6_lib_t:file { read execute }
+allow taskhost_t msxml6r_lib_t:file { execute getattr gen_read }
+allow taskhost_t wininet_lib_t:file { read execute write create getattr }
+allow taskhost_t systemroot_dir_t:file { read execute write create getattr }
+allow taskhost_t sspicli_lib_t:file { read execute }
+allow taskhost_t systemroot_dir_t:dir { execute create setattr }
+allow taskhost_t dnsapi_lib_t:file { read execute }
+allow taskhost_t iphlpapi_lib_t:file { read execute }
+allow taskhost_t winnsi_lib_t:file { read execute }
+allow taskhost_t tzres_lib_t:file { execute getattr gen_read }
+allow taskhost_t device_t:device { execute getattr }
+allow taskhost_t powrprof_lib_t:file { read execute }
+allow taskhost_t system32_dir_t:dir { read execute }
+allow taskhost_t taskschd_lib_t:file { read execute }
+allow taskhost_t xmllite_lib_t:file { read execute }
+allow svchost_t racengn_lib_t:file { execute getattr gen_read }
+allow taskhost_t system_dir_t:file { setattr }
+allow svchost_t winsta_lib_t:file { read execute }
+allow taskhost_t system_dir_t:file { execute unlink getattr }
+allow svchost_t mpcmdrun_exec_t:process { execute }
+allow svchost_t apphelp_lib_t:file { read execute }
+allow mpcmdrun_t system32_dir_t:dir { execute }
+allow mpcmdrun_t sechost_lib_t:file { read execute }
+allow mpcmdrun_t userenv_lib_t:file { read execute }
+allow mpcmdrun_t profapi_lib_t:file { read execute }
+allow mpcmdrun_t systemroot_dir_t:file { read execute }
+allow mpcmdrun_t version_lib_t:file { read execute }
+allow mpcmdrun_t cabinet_lib_t:file { read execute }
+allow mpcmdrun_t imm32_lib_t:file { read execute }
+allow mpcmdrun_t systemroot_dir_t:file { execute getattr gen_read }
+allow mpcmdrun_t winhttp_lib_t:file { read execute }
+allow mpcmdrun_t webio_lib_t:file { read execute }
+allow mpcmdrun_t rpcss_lib_t:file { read execute }
+allow mpcmdrun_t cryptbase_lib_t:file { read execute }
+allow mpcmdrun_t device_t:device { read execute }
+allow mpcmdrun_t wuapi_lib_t:file { read execute }
+allow mpcmdrun_t wuapi_lib_t:file { read execute write create getattr }
+allow mpcmdrun_t systemroot_dir_t:file { execute getattr }
+allow mpcmdrun_t systemroot_dir_t:dir { execute getattr }
+allow mpcmdrun_t system_dir_t:dir { execute getattr }
+allow mpcmdrun_t wups_lib_t:file { read execute }
+allow mpcmdrun_t cryptsp_lib_t:file { read execute }
+allow mpcmdrun_t rsaenh_lib_t:file { read execute }
+allow mpcmdrun_t rsaenh_lib_t:file { execute getattr gen_read }
+allow mpcmdrun_t rpcrtremote_lib_t:file { read execute }
+allow mpcmdrun_t tzres_lib_t:file { execute getattr gen_read }
+allow svchost_t wups_lib_t:file { read execute }
+allow svchost_t slwga_lib_t:file { read execute }
+allow svchost_t sppc_lib_t:file { read execute }
+allow svchost_t systemroot_dir_t:file { execute getattr gen_read }
+allow mpcmdrun_t wuaueng_lib_t:file { execute getattr gen_read }
+allow mpcmdrun_t qmgr_lib_t:file { execute getattr gen_read }
+allow mpcmdrun_t wer_lib_t:file { read execute }
+allow mpcmdrun_t systemroot_dir_t:dir { read execute }
+allow mpcmdrun_t sensapi_lib_t:file { read execute }
+allow mpcmdrun_t system32_drivers_dir_t:dir { read execute }
+allow mpcmdrun_t sspicli_lib_t:file { read execute }
+allow mpcmdrun_t credssp_lib_t:file { read execute }
+allow mpcmdrun_t mswsock_lib_t:file { read execute }
+allow mpcmdrun_t wshtcpip_lib_t:file { read execute }
+allow mpcmdrun_t wship6_lib_t:file { read execute }
+allow mpcmdrun_t iphlpapi_lib_t:file { read execute }
+allow mpcmdrun_t winnsi_lib_t:file { read execute }
+allow mpcmdrun_t dhcpcsvc6_lib_t:file { read execute }
+allow mpcmdrun_t dhcpcsvc_lib_t:file { read execute }
+allow mpcmdrun_t dnsapi_lib_t:file { read execute }
+allow mpcmdrun_t device_t:device { execute setattr gen_read gen_write }
+allow mpcmdrun_t rasadhlp_lib_t:file { read execute }
+allow mpcmdrun_t system_dir_t:dir { read execute }
+allow mpcmdrun_t system_dir_t:dir { read execute write create getattr }
+allow mpcmdrun_t ntmarta_lib_t:file { read execute }
+allow mpcmdrun_t system_dir_t:dir { setattr }
+allow mpcmdrun_t system_dir_t:file { read execute write create getattr }
+allow mpcmdrun_t system_dir_t:file { setattr }
+allow mpcmdrun_t system_dir_t:file { execute unlink getattr }
+allow mpcmdrun_t system_dir_t:dir { execute unlink getattr }
+allow mpcmdrun_t system_dir_t:file { execute create setattr }
+allow mpcmdrun_t systemroot_dir_t:file { execute unlink getattr }
+allow mpcmdrun_t mpcmdrun_exec_t:process { execute }
+allow mpcmdrun_t apphelp_lib_t:file { read execute }
+allow mpcmdrun_t systemroot_dir_t:file { execute getattr gen_write }
+allow cmd_t sc_exec_t:process { execute }
+allow sc_t system32_dir_t:dir { execute }
+allow sc_t sechost_lib_t:file { read execute }

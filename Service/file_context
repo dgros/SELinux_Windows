@@ -1,0 +1,7 @@
+%SystemDrive%\\Users\\([^\\])+\\(([a-zA-Z0-9])+\\)*([^.])+\.exe  user_u:object_r:user_bin_t
+%SystemRoot%\\drivers\\([^.&^\\])+\.sys  system_u:object_r:driver_t
+%SystemRoot%\\([a-zA-Z0-9]+\\)*([^.])+\.exe  system_u:object_r:bin_t
+%SystemRoot%\\([a-zA-Z0-9]+\\)*([^.])+\.dll  system_u:object_r:lib_t
+%ProgramFiles%\\\\([a-zA-Z0-9]+\\\\)*([^.])+\\.exe  system_u:object_r:bin_t
+%ProgramFiles%\\\\([a-zA-Z0-9]+\\\\)*([^.])+\\.dll  system_u:object_r:lib_t
+%ProgramFiles%\\\\([a-zA-Z0-9]+\\\\)*([^.])+\\.sys  system_u:object_r:driver_third_t

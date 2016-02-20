@@ -1,0 +1,5 @@
+TARGETNAME=ips
+TARGETTYPE=DRIVER
+
+SOURCES= \
+	fonction.c driver.c security.c

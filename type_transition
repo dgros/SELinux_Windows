@@ -1,0 +1,6 @@
+allow transition bin_program_exec_t bin_program_t;
+allow transition explorer_exec_t explorer_t;
+allow transition cmd_exec_t cmd_t;
+allow transition searchprotocolhost_exec_t searchprotocolhost_t;
+allow transition iexplore_exec_t iexplore_t;
+allow transition notepad++_exec_t notepad++_t;
