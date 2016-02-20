@@ -7,6 +7,8 @@ Use reg ex to label the file system
 All contexts are dynamically computed
 
 
+https://www.sstic.org/media/SSTIC2012/SSTIC-actes/contrle_dacces_mandataire_pour_windows_7/SSTIC2012-Article-contrle_dacces_mandataire_pour_windows_7-toinard_gros_briffaut_2.pdf
+
 
 Cet article présente une implémentation novatrice pour le renforcement des fonctions de contrôle d'accès de Windows 7. Basée sur le Type Enforcement, cette approche propose de mettre en place un contrôle d'accès de type mandataire supportant l'application de propriétés de sécurité avancées.
 De façon similaire à LSM pour le noyau Linux, notre implémentation offre un contrôle d'accès à grain reposant sur le détournement des appels système. L'ajout d'une labellisation du système de fichiers offre une correspondance précise entre la ressource et son contexte de sécurité. De plus, dans le but de faciliter l'écriture d'une politique de sécurité, nous avons mis en place un mécanisme d'apprentissage qui se base sur les événements observés par notre solution pour les transformer en règles de contrôle d'accès.
